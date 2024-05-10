@@ -12,7 +12,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { LinkedInLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
@@ -26,7 +26,7 @@ interface RouteProps {
 const routeList: RouteProps[] = [
   {
     href: "#features",
-    label: "Features",
+    label: "Offerta",
   },
   {
     href: "#testimonials",
@@ -34,7 +34,7 @@ const routeList: RouteProps[] = [
   },
   {
     href: "#pricing",
-    label: "Pricing",
+    label: "Prezzi",
   },
   {
     href: "#faq",
@@ -54,7 +54,7 @@ export const Navbar = () => {
               className="ml-2 font-bold text-xl flex"
             >
               <LogoIcon />
-              ShadcnUI/React
+              HR-Tech Guys
             </a>
           </NavigationMenuItem>
 
@@ -93,14 +93,14 @@ export const Navbar = () => {
                     </a>
                   ))}
                   <a
-                    href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+                    href="https://www.linkedin.com/company/hr-tech-guys/about/"
                     target="_blank"
                     className={`w-[110px] border ${buttonVariants({
                       variant: "secondary",
                     })}`}
                   >
-                    <GitHubLogoIcon className="mr-2 w-5 h-5" />
-                    Github
+                    <LinkedInLogoIcon className="mr-2 w-5 h-5" />
+                    LinkedIn
                   </a>
                 </nav>
               </SheetContent>
@@ -124,12 +124,12 @@ export const Navbar = () => {
 
           <div className="hidden md:flex gap-2">
             <a
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://www.linkedin.com/company/hr-tech-guys/about/"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
-              <GitHubLogoIcon className="mr-2 w-5 h-5" />
-              Github
+              <LinkedInLogoIcon className="mr-2 w-5 h-5" />
+              LinkedIn
             </a>
 
             <ModeToggle />
