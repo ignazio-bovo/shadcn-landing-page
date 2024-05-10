@@ -4,7 +4,7 @@
 
 ![shadch-landing-page](https://github.com/leoMirandaa/shadcn-landing-page/assets/61714687/3ba7b51f-9589-4541-800a-5ab7cecad1b5)
 
-Build your React landing page effortlessly with the required sections to your project. <a href="https://shadcn-landing-page.vercel.app/" target="_blank">Live Demo</a>
+Trasforma la tua gestione delle risorse umane con soluzioni software innovative! Realizziamo software su misura per la consulenza del lavoro e la gestione delle risorse umane, offrendo velocità, qualità e convenienza senza pari. <a href="https://shadcn-landing-page.vercel.app/" target="_blank">Live Demo</a>
 
 ## Sections
 
